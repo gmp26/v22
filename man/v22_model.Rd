@@ -58,8 +58,8 @@ v22_model()
 Takes parameters (that ultimately derive from an OPENCPU POST), and calls the predict model with those parameters. It then prints the results in JSON format so they can be fetched and parsed reasonably easily by a cljs test runner.
 }
 \examples{
-v22_model(66,1,12,2,2,1,1,1,3,1,1,1,0) calls the function locally
-curl -d'66,1,12,2,2,1,1,1,3,1,1,1,0' http://localhost:5656/ocpu/library/v22/R/v22_model calls it remotely.
+"v22_model(66,1,12,2,2,1,1,1,3,1,1,1,0) calls the function locally"
+"curl -d'66,1,12,2,2,1,1,1,3,1,1,1,0' /ocpu/library/v22/R/v22_model calls it remotely."
 }
 \seealso{
 wrap_v22_model

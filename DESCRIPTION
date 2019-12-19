@@ -7,7 +7,7 @@ Maintainer: Mike Pearson <gmp26@cam.ac.uk>
 Description: Takes parameters (that ultimately derive from an OPENCPU POST), and
       calls the predict model with those parameters. It then prints the results in JSON
       format so they can be fetched and parsed reasonably easily by a cljs test runner.
-License: MIT
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: 

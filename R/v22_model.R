@@ -16,8 +16,8 @@
 #' @description Takes parameters (that ultimately derive from an OPENCPU POST), and calls the predict model with those parameters. It then prints the results in JSON format so they can be fetched and parsed reasonably easily by a cljs test runner.
 #' @export
 #' @keywords Predict
-#' @examples v22_model(66,1,12,2,2,1,1,1,3,1,1,1,0) calls the function locally
-#' @examples curl -d'66,1,12,2,2,1,1,1,3,1,1,1,0' http://localhost:5656/ocpu/library/v22/R/v22_model calls it remotely.
+#' @examples "v22_model(66,1,12,2,2,1,1,1,3,1,1,1,0) calls the function locally"
+#' @examples "curl -d'66,1,12,2,2,1,1,1,3,1,1,1,0' /ocpu/library/v22/R/v22_model calls it remotely."
 #' @seealso wrap_v22_model
 #' @return a list of benefits2.1, benefits2.1.2 and benefits2.1.10 dataframes
 #' v22_model()

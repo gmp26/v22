@@ -433,7 +433,7 @@ v22_model <- function(age.start = 66,
   #h10  <- c(rep(h, rows - 5), rep(-.2+h, 5)) #v2.1
   #h10  <- c(rep(h, rows - 5), rep(-.342+h, 5)) #Shiny ref
   h10  <-
-    c(rep(h, rows - 5), rep(-.296 + h, 5)) #including both ATLAS and aTTom trials
+    c(rep(h, rows - 5), rep(-.26 + h, 5)) #including both ATLAS and aTTom trials
 
   pi5  <- pi + h5 + r.br + c + t + b
   pi10 <- pi + h10 + r.br + c + t + b

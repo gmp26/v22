@@ -37,7 +37,8 @@ v22_model <- function(age.start = 66,
                       bis = 1,
                       # do not change these
                       radio = 0,
-                      r.enabled = 0)
+                      r.enabled = 0,
+                      delay = 0) # delay for h10 treatment. By default 0 years, but can be set to 5 years
 
 {
   ########
@@ -418,7 +419,7 @@ v22_model <- function(age.start = 66,
     100 * (pred.cum.all.rel.rx[, 1] - pred.cum.all.rel.rx)
 
   ## ------------------------------------------------------------------------
-  delay <- 5   # Set delay to 0 to check predictions with main model
+  # delay <- 5   # Delay is now a parameter
   rows  <- 15 - delay
   time  <- c(1:rows)
   age5   <- age.start + delay - 1 + time

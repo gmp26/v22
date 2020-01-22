@@ -508,9 +508,10 @@ v22_model <- function(age.start = 66,
   #
   ######
   return(list(
-    benefits2.1 = data.frame(benefits2.1),
-    benefits2.1.10 = data.frame(benefits2.1.10),
-    benefits2.1.2 = data.frame(benefits2.1.2)))
+    # we can return these as model v2.2 values
+    benefits2.2 = data.frame(benefits2.1),
+    benefits2.2.10 = data.frame(benefits2.1.10),
+    benefits2.2.2 = data.frame(benefits2.1.2)))
 
 }
 
